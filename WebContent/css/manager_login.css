@@ -1,0 +1,43 @@
+.wrapper {
+	margin: 0 auto;
+}
+.wrapper form {
+	width: 440px;
+	margin: 100px auto;
+	text-align: center;
+	border: 2px solid #188682;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.wrapper form h3 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.wrapper input {
+	width: 300px;
+	height: 34px;
+	padding: 0 10px;	
+	border-radius: 3px;
+	border: 1px solid #188682;
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.wrapper button {
+	width: 300px;
+	height: 34px;
+	padding: 0 5px;	
+	border-radius: 3px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	background-color: #188682;
+	color: #fff;
+}
+
+.wrapper button:hover {
+	background-color: #165F78 !important;
+	color: #fff;
+}
