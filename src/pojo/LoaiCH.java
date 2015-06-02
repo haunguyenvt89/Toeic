@@ -4,23 +4,23 @@ public class LoaiCH {
 	private int Maloai;
 	private String TenLoai;
 	private int Phanthi;
-	int getMaloai() {
+	public int getMaloai() {
 		return Maloai;
 	}
-	void setMaloai(int maloai) {
+	public void setMaloai(int maloai) {
 		Maloai = maloai;
 	}
-	String getTenLoai() {
+	public String getTenLoai() {
 		return TenLoai;
 	}
-	void setTenLoai(String tenLoai) {
+	public void setTenLoai(String tenLoai) {
 		TenLoai = tenLoai;
 	}
-	int getPhanthi() {
+	public int getPhanthi() {
 		return Phanthi;
 	}
-	void setPhanthi(int phanthi) {
+	public void setPhanthi(int phanthi) {
 		Phanthi = phanthi;
 	}
-
+	
 }

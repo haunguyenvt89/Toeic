@@ -11,56 +11,48 @@ public class User {
 	private String Password;
 	private int Trangthai;
 	private Date ngaytao;
-	
-	public User()
-	{
-		
-	}
-	public User (String name, String pass)
-	{
-		this.Username = name;
-		this.Password = pass;
-	}
-	String getMaND() {
+	public String getMaND() {
 		return MaND;
 	}
-	void setMaND(String maND) {
+	public void setMaND(String maND) {
 		MaND = maND;
 	}
-	String getHoTen() {
+	public String getHoTen() {
 		return HoTen;
 	}
-	void setHoTen(String hoTen) {
+	public void setHoTen(String hoTen) {
 		HoTen = hoTen;
 	}
-	String getEmail() {
+	public String getEmail() {
 		return Email;
 	}
-	void setEmail(String email) {
+	public void setEmail(String email) {
 		Email = email;
 	}
-	String getUsername() {
+	public String getUsername() {
 		return Username;
 	}
-	void setUsername(String username) {
+	public void setUsername(String username) {
 		Username = username;
 	}
-	String getPassword() {
+	public String getPassword() {
 		return Password;
 	}
-	void setPassword(String password) {
+	public void setPassword(String password) {
 		Password = password;
 	}
-	int getTrangthai() {
+	public int getTrangthai() {
 		return Trangthai;
 	}
-	void setTrangthai(int trangthai) {
+	public void setTrangthai(int trangthai) {
 		Trangthai = trangthai;
 	}
-	Date getNgaytao() {
+	public Date getNgaytao() {
 		return ngaytao;
 	}
-	void setNgaytao(Date ngaytao) {
+	public void setNgaytao(Date ngaytao) {
 		this.ngaytao = ngaytao;
 	}
+	
+	
 }

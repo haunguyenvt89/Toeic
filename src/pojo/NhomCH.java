@@ -4,22 +4,23 @@ public class NhomCH {
 	private int Manhom;
 	private String Noidung_Text;
 	private String Noidung_MP3;
-	int getManhom() {
+	public int getManhom() {
 		return Manhom;
 	}
-	void setManhom(int manhom) {
+	public void setManhom(int manhom) {
 		Manhom = manhom;
 	}
-	String getNoidung_Text() {
+	public String getNoidung_Text() {
 		return Noidung_Text;
 	}
-	void setNoidung_Text(String noidung_Text) {
+	public void setNoidung_Text(String noidung_Text) {
 		Noidung_Text = noidung_Text;
 	}
-	String getNoidung_MP3() {
+	public String getNoidung_MP3() {
 		return Noidung_MP3;
 	}
-	void setNoidung_MP3(String noidung_MP3) {
+	public void setNoidung_MP3(String noidung_MP3) {
 		Noidung_MP3 = noidung_MP3;
-	}	
+	}
+		
 }

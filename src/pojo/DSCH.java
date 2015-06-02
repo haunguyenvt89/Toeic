@@ -5,22 +5,23 @@ public class DSCH {
 	private String Made;
 	private String MaCH;
 	private int STT;
-	String getMade() {
+	public String getMade() {
 		return Made;
 	}
-	void setMade(String made) {
+	public void setMade(String made) {
 		Made = made;
 	}
-	String getMaCH() {
+	public String getMaCH() {
 		return MaCH;
 	}
-	void setMaCH(String maCH) {
+	public void setMaCH(String maCH) {
 		MaCH = maCH;
 	}
-	int getSTT() {
+	public int getSTT() {
 		return STT;
 	}
-	void setSTT(int sTT) {
+	public void setSTT(int sTT) {
 		STT = sTT;
 	}
+
 }

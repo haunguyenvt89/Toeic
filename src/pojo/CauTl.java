@@ -5,28 +5,28 @@ public class CauTl {
 	private String Mathi;
 	private String MaCH;
 	private String MaLC;
-	String getMaCTL() {
+	public String getMaCTL() {
 		return MaCTL;
 	}
-	void setMaCTL(String maCTL) {
+	public void setMaCTL(String maCTL) {
 		MaCTL = maCTL;
 	}
-	String getMathi() {
+	public String getMathi() {
 		return Mathi;
 	}
-	void setMathi(String mathi) {
+	public void setMathi(String mathi) {
 		Mathi = mathi;
 	}
-	String getMaCH() {
+	public String getMaCH() {
 		return MaCH;
 	}
-	void setMaCH(String maCH) {
+	public void setMaCH(String maCH) {
 		MaCH = maCH;
 	}
-	String getMaLC() {
+	public String getMaLC() {
 		return MaLC;
 	}
-	void setMaLC(String maLC) {
+	public void setMaLC(String maLC) {
 		MaLC = maLC;
 	}
 

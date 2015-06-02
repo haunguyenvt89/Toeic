@@ -7,41 +7,42 @@ public class Cauhoi {
 	private String Noidung_Text;
 	private String Noidung_img;
 	private int Manhom;
-	String getMaCH() {
+	public String getMaCH() {
 		return MaCH;
 	}
-	void setMaCH(String maCH) {
+	public void setMaCH(String maCH) {
 		MaCH = maCH;
 	}
-	String getNoidung_MP3() {
-		return Noidung_MP3;
-	}
-	void setNoidung_MP3(String noidung_MP3) {
-		Noidung_MP3 = noidung_MP3;
-	}
-	int getMaloai() {
+	public int getMaloai() {
 		return Maloai;
 	}
-	void setMaloai(int maloai) {
+	public void setMaloai(int maloai) {
 		Maloai = maloai;
 	}
-	String getNoidung_Text() {
+	public String getNoidung_MP3() {
+		return Noidung_MP3;
+	}
+	public void setNoidung_MP3(String noidung_MP3) {
+		Noidung_MP3 = noidung_MP3;
+	}
+	public String getNoidung_Text() {
 		return Noidung_Text;
 	}
-	void setNoidung_Text(String noidung_Text) {
+	public void setNoidung_Text(String noidung_Text) {
 		Noidung_Text = noidung_Text;
 	}
-	String getNoidung_img() {
+	public String getNoidung_img() {
 		return Noidung_img;
 	}
-	void setNoidung_img(String noidung_img) {
+	public void setNoidung_img(String noidung_img) {
 		Noidung_img = noidung_img;
 	}
-	int getManhom() {
+	public int getManhom() {
 		return Manhom;
 	}
-	void setManhom(int manhom) {
+	public void setManhom(int manhom) {
 		Manhom = manhom;
 	}
+	
 
 }

@@ -7,23 +7,24 @@ public class Dethi {
 	private String Made;
 	private Date Ngaytao;
 	private int ThoigianLB;
-	String getMade() {
+	public String getMade() {
 		return Made;
 	}
-	void setMade(String made) {
+	public void setMade(String made) {
 		Made = made;
 	}
-	Date getNgaytao() {
+	public Date getNgaytao() {
 		return Ngaytao;
 	}
-	void setNgaytao(Date ngaytao) {
+	public void setNgaytao(Date ngaytao) {
 		Ngaytao = ngaytao;
 	}
-	int getThoigianLB() {
+	public int getThoigianLB() {
 		return ThoigianLB;
 	}
-	void setThoigianLB(int thoigianLB) {
+	public void setThoigianLB(int thoigianLB) {
 		ThoigianLB = thoigianLB;
 	}
+	
 
 }
