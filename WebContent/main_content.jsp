@@ -1,3 +1,4 @@
+<%@page import="model.NhomCHModel" %>
 <div class="main-content">
 	<div class="row">
 		<div class="col-md-9 col-xs-6 content">
@@ -17,10 +18,19 @@
 					</td>
 					<td><a href="introduce-exam.jsp" title="Exam"> <i
 							class="glyphicon glyphicon-hand-right"></i>
+							
 					</a></td>
 				</tr>
 			</table>
+			<%
+				NhomCHModel nhomCH = new NhomCHModel();
+				String content = nhomCH.getNhomCH(2);
+				out.println(content);
+			%>
+			
 		</div>
-		<jsp:include page="right-slidebar.jsp"></jsp:include>
+		<%@include file="right-slidebar.jsp"%>
+		<%  %>
+	
 	</div>
 </div>

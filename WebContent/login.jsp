@@ -13,7 +13,7 @@
 	<div class="wrapper">
 		<div class="container">
 			<h1>Welcome To Toeic Test Online</h1>
-			<form name="frmLogin" class="form" method="post" onsubmit="getxmlHttpRequest('loginServlet', 'frmLogin', 'message', 'Please waiting for a second'); return fasle">
+			<form name="frmLogin" class="form" method="post" action="loginServlet">
 				<input  name="username" type="text" placeholder="Username" require>
 				<input name="password" type="password" placeholder="Password" require>
 				<button name="login" type="submit">Login</button>

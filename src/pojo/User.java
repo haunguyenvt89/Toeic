@@ -11,6 +11,13 @@ public class User {
 	private String Password;
 	private int Trangthai;
 	private Date ngaytao;
+	private int Loaiuser;
+	public int getLoaiuser() {
+		return Loaiuser;
+	}
+	public void setLoaiuser(int loaiuser) {
+		Loaiuser = loaiuser;
+	}
 	public String getMaND() {
 		return MaND;
 	}

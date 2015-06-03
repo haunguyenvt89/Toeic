@@ -5,13 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="//css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="//css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href=".css/style.css">
-	<link rel="stylesheet" type="text/css" href=".js/sweetalert/lib/sweet-alert.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../js/sweetalert/lib/sweet-alert.css">
 </head>
 <body>
-	<%@include file="header.jsp" %>
+	<%@include file="../header-admin.jsp" %>
 
 </body>
 </html>

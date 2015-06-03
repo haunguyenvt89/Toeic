@@ -47,7 +47,7 @@ public class loginServlet extends HttpServlet {
 				response.sendRedirect("main-page.jsp");
 			else
 				if(result == 1)
-					response.sendRedirect("main_admin.jsp");
+					response.sendRedirect("admin/main_admin.jsp");
 				else if(result == 0)
 				response.sendRedirect("login.jsp");
 		} catch (SQLException e) {
