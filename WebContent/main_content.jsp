@@ -23,6 +23,7 @@
 				</tr>
 			</table>
 			<%
+			
 				NhomCHModel nhomCH = new NhomCHModel();
 				String content = nhomCH.getNhomCH(2);
 				out.println(content);

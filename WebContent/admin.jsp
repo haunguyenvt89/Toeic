@@ -12,125 +12,15 @@
 </head>
 <body>
 	<!-- Header -->
-	<header>
-		<div class="header-top">
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">Trang quản lý</a>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle menu-account" data-toggle="dropdown">Tài khoản
-									<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="admin.html" class="menu-account-admin">Admin</a>
-									</li>
-									<li>
-										<a href="user.html" class="menu-account-user">User</a>
-									</li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle menu-question" data-toggle="dropdown">Câu hỏi
-									<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="loaiCH.html" class="menu-cauhoi-loaicauhoi">Loại câu hỏi</a>
-									</li>
-									<li>
-										<a href="nhomCH.html" class="menu-cauhoi-nhomcauhoi">Nhóm câu hỏi</a>
-									</li>
-									<li>
-										<a href="cauhoi.html" class="menu-cauhoi">Câu hỏi</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="dethi.html" class="menu-dethi">Đề thi</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+	
+		<jsp:include page="header-admin.jsp"></jsp:include>
 	<!-- End header -->
 
 	<!-- Content admin -->
-	<div id="content-admin">
-		<div class="container">			
-			<div class="title row">
-				<div class="col-md-6 title-left">
-					<h3>Danh sách ban quản trị</h3>
-				</div>
-				<div class="col-md-6 title-right">
-					<button class="btn btn-default btn-add-admin">Thêm mới</button>
-				</div>
-				
-			</div>
-			<table class="table table-bordered table-admin">
-				<tr>
-					<th>STT</th>
-					<th>Họ tên</th>				
-					<th>Tên tài khoản</th>
-					<th>Email</th>
-					<th>Trạng thái</th>
-					<th>Ngày tạo</th>
-					<th>Chỉnh sửa</th>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>Nguyễn Văn A</td>
-					<td>admin</td>
-					<td>admin@gmail.com</td>
-					<td>Hoạt động</td>
-					<td>20-11-2014 15:30</td>
-					<td>
-						<a class="glyphicon glyphicon-edit edit-admin edit-table" title="Chỉnh sửa" href="#"></a>
-						<a class="glyphicon glyphicon-remove delete-admin delete-table" title="Xóa"></a>
-					</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>Nguyễn Văn A</td>
-					<td>admin</td>
-					<td>admin@gmail.com</td>
-					<td>Hoạt động</td>
-					<td>20-11-2014 15:30</td>
-					<td>
-						<a class="glyphicon glyphicon-edit edit-admin edit-table" title="Chỉnh sửa" href="#"></a>
-						<a class="glyphicon glyphicon-remove delete-admin delete-table" title="Xóa"></a>
-					</td>
-				</tr>
-				<tr>
-					<td>3</td>
-					<td>Nguyễn Văn A</td>
-					<td>admin</td>
-					<td>admin@gmail.com</td>
-					<td>Hoạt động</td>
-					<td>20-11-2014 15:30</td>
-					<td>
-						<a class="glyphicon glyphicon-edit edit-admin edit-table" title="Chỉnh sửa" href="#"></a>
-						<a class="glyphicon glyphicon-remove delete-admin delete-table" title="Xóa"></a>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
+	
 
 	<!-- End content admin -->
-
+		<jsp:include page="main-content-admin.jsp"></jsp:include>
 	<!-- Add admin -->
 	<div class="panel-add-admin">
 		<h4>Thêm người dùng</h4>

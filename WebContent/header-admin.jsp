@@ -9,13 +9,13 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Trang quản lý</a>
+					<a class="navbar-brand" href="#">Admin page</a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown"><a href="#"
-							class="dropdown-toggle menu-account" data-toggle="dropdown">Tài
-								khoản <span class="caret"></span>
+							class="dropdown-toggle menu-account" data-toggle="dropdown">Account
+								<span class="caret"></span>
 						</a>
 							<ul class="dropdown-menu">
 								<li><a href="admin.html" class="menu-account-admin">Admin</a>
@@ -24,18 +24,16 @@
 								</li>
 							</ul></li>
 						<li class="dropdown"><a href="#"
-							class="dropdown-toggle menu-question" data-toggle="dropdown">Câu
-								hỏi <span class="caret"></span>
+							class="dropdown-toggle menu-question" data-toggle="dropdown"> Questions
+							<span class="caret"></span>
 						</a>
 							<ul class="dropdown-menu">
-								<li><a href="loaiCH.html" class="menu-cauhoi-loaicauhoi">Loại
-										câu hỏi</a></li>
-								<li><a href="nhomCH.html" class="menu-cauhoi-nhomcauhoi">Nhóm
-										câu hỏi</a></li>
-								<li><a href="cauhoi.html" class="menu-cauhoi">Câu
-										hỏi</a></li>
+								<li><a href="loaiCH.html" class="menu-cauhoi-loaicauhoi">Question type</a></li>
+								<li><a href="nhomCH.html" class="menu-cauhoi-nhomcauhoi">Question group</a></li>
+								<li><a href="cauhoi.html" class="menu-cauhoi">Questions</a>
+								</li>
 							</ul></li>
-						<li><a href="dethi.html" class="menu-dethi">Đề thi</a></li>
+						<li><a href="dethi.html" class="menu-dethi">Examination</a></li>
 					</ul>
 				</div>
 			</div>
